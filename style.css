@@ -2,6 +2,11 @@
     font-family: "Special Elite", monospace;
 }
 
+.for-message {
+    margin-top: 22px;
+    flex: 1;
+}
+
 .centre-stage {
     min-height: 100vh;
     display: flex;
@@ -216,7 +221,19 @@ body {
     background-color: black;
 }
 
-
+.windy {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .printer {
     display: flex;
@@ -346,6 +363,20 @@ body {
 }
 
 .proton {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.github {
     display: flex;
     flex: 1;
     padding: 20px;
