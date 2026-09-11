@@ -16,5 +16,6 @@ const links = {
     coast: "https://banking.coastcapitalsavings.com/",
     email: "suggestions@jflovely.ca",
     bandit: "https://overthewire.org/wargames/bandit/",
-    
+    speed: "https://speed.cloudflare.com/"
+    speed2: "https://www.speedtest.net/"
 }

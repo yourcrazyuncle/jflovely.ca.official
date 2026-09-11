@@ -1,3 +1,7 @@
+.font {
+    font-family: "Special Elite", monospace;
+}
+
 .centre-stage {
     min-height: 100vh;
     display: flex;
@@ -6,6 +10,10 @@
     align-items: center;
     text-align: center;
     gap: 150px;
+}
+
+.google-it {
+    font-size: 22px;
 }
 
 .search input {
@@ -150,7 +158,7 @@ body {
 }
 
 .category-title {
-    font-size: 30px;
+    font-size: 33px;
     margin-bottom: 30px;
     flex: 1;
 }
@@ -160,6 +168,7 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    font-size: 22px;
     
 }
 
@@ -175,6 +184,20 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.speed-test-1 {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
 }
 
 .tiny-words {
