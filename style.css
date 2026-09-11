@@ -1,3 +1,13 @@
+.centre-stage {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 150px;
+}
+
 #matrix {
     position: fixed;
     inset: 0;

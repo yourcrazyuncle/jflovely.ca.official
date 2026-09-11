@@ -8,6 +8,204 @@
         <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 <body>
-    The Archive is not online.
+    <canvas id="matrix"></canvas>
+    <div class="centre-stage">
+    <h1>The Archive is not online...</h1>
+    <h1>I'm workin' on it...</h1>
+    </div>
 </body>
+
+
+
+<script>const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+
+// ===============================
+// MATRIX SETTINGS
+// ===============================
+
+let fontSize = 22;
+
+// Lower number = faster
+// 50 = normal, 35 = faster, 70 = slower
+let rainSpeed = 77;
+
+// 1.0 = normal
+// 1.35 = denser
+// 0.75 = more sparse
+let density = .7;
+
+
+// ===============================
+// MATRIX CHARACTERS
+// ===============================
+
+const letters =
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ" +
+    "abcdefghijklmnopqrstuvwxyz" +
+    "0123456789" +
+
+    // Katakana
+    "アァカサタナハマヤャラワガザダバパ" +
+    "イィキシチニヒミリヰギジヂビピ" +
+    "ウゥクスツヌフムユュルグズヅブプ" +
+    "エェケセテネヘメレヱゲゼデベペ" +
+    "オォコソトノホモヨョロヲゴゾドボポ" +
+
+    // // Hiragana
+    // "あいうえお" +
+    // "かきくけこ" +
+    // "さしすせそ" +
+    // "たちつてと" +
+    // "なにぬねの" +
+    // "はひふへほ" +
+    // "まみむめも" +
+    // "やゆよ" +
+    // "らりるれろ" +
+    // "わをん" +
+
+    // Kanji / numbers
+    "日月火水木金土" +
+    "零一二三四五六七八九" +
+
+    // Symbols
+    "!@#$%^&*+-=<>[]{}" +
+    "∴∵∞≠≈";
+
+
+// ===============================
+// RAIN COLUMNS
+// ===============================
+
+const drops = [];
+const speeds = [];
+
+
+// ===============================
+// NATURAL SPEED GENERATOR
+// ===============================
+
+function randomSpeed() {
+
+    // Generate a random number centered around 1.0.
+    // This makes average-speed columns common,
+    // while very slow/fast columns are less common.
+
+    let speed =
+        (Math.random() +
+         Math.random() +
+         Math.random()) / 3;
+
+    // Convert 0–1 into approximately 0.5–2.5
+    speed = 0.5 + speed * 2;
+
+    return speed;
+}
+
+
+// ===============================
+// RESIZE CANVAS
+// ===============================
+
+function resizeCanvas() {
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    const columnWidth = fontSize / density;
+    const columns = Math.ceil(canvas.width / columnWidth);
+
+    drops.length = 0;
+    speeds.length = 0;
+
+    for (let x = 0; x < columns; x++) {
+
+        // Random starting position
+        drops[x] = Math.floor(
+            Math.random() * (canvas.height / fontSize)
+        );
+
+        // Give every column its own speed
+        speeds[x] = randomSpeed();
+    }
+}
+
+
+// ===============================
+// DRAW MATRIX RAIN
+// ===============================
+
+function draw() {
+
+    // Fade previous characters
+    ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+    ctx.fillRect(
+        0,
+        0,
+        canvas.width,
+        canvas.height
+    );
+
+    ctx.fillStyle = "#0F0";
+    ctx.font = fontSize + "px monospace";
+
+    const columnWidth = fontSize / density;
+
+    for (let i = 0; i < drops.length; i++) {
+
+        // Pick a random character
+        const text = letters.charAt(
+            Math.floor(
+                Math.random() * letters.length
+            )
+        );
+
+        // Draw character
+        ctx.fillText(
+            text,
+            i * columnWidth,
+            drops[i] * fontSize
+        );
+
+
+        // If the column reaches the bottom,
+        // occasionally restart it at the top.
+        if (
+            drops[i] * fontSize > canvas.height &&
+            Math.random() > 0.975
+        ) {
+
+            drops[i] = 0;
+
+            // New speed every time the column restarts
+            speeds[i] = randomSpeed();
+        }
+
+
+        // Move this column according to its
+        // individual speed.
+        drops[i] += speeds[i];
+    }
+}
+
+
+// ===============================
+// START MATRIX
+// ===============================
+
+resizeCanvas();
+
+setInterval(draw, rainSpeed);
+
+
+// ===============================
+// HANDLE WINDOW RESIZE
+// ===============================
+
+window.addEventListener(
+    "resize",
+    resizeCanvas
+);</script>
+
 </html>
