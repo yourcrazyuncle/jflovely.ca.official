@@ -1,0 +1,287 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Special Elite", monospace;
+    color: #0f0;
+    background-color: black;
+}
+
+.whole-ass-page-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    /* border: 6px solid white; */
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.uncle-seb-archive {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.email-me-box {
+    display: block;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.to-the-archive-box {
+    display: block;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.bank-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.coast-capital-box {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.td-box {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.category-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+    flex: 1;
+}
+
+.category-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    
+}
+
+.useful-links {    
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.tiny-words {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.printer {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.educational-box {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.computer-education {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.literature {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.bandit {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.typing {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.speed-dial {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.youtube {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.chatgpt {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.proton {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.secret-codes {
+
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 6px solid white;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}

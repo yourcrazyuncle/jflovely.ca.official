@@ -1,0 +1,20 @@
+const links = {
+    archive: "archive.html",
+    youtube: "https://youtube.com",
+    proton: "https://account.proton.me/mail",
+    chatgpt: "https://chatgpt.com/",
+    khan: "https://www.khanacademy.org/login",
+    entertrained: "https://entertrained.app/",
+    balloons: "https://www.youtube.com/@Balloonanimals1",
+    csssushi: "https://flukeout.github.io/",
+    terms: "https://tosdr.org/en",
+    printer: "https://www.printfriendly.com/",
+    minmail: "https://10minutemail.com/",
+    pirate: "https://thepiratebay.org/index.html",
+    librivox: "https://librivox.org/",
+    td: "https://authentication.td.com/uap-ui/?consumer=easyweb&locale=en_CA#/uap/login",
+    coast: "https://banking.coastcapitalsavings.com/",
+    email: "suggestions@jflovely.ca",
+    bandit: "https://overthewire.org/wargames/bandit/",
+    
+}
