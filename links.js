@@ -19,5 +19,6 @@ const links = {
     speed: "https://speed.cloudflare.com/",
     speed2: "https://www.speedtest.net/",
     windy: "https://www.windy.com/49.261/-123.114?waves,49.532,-122.574,9",
-    echords: "https://www.e-chords.com/"
+    echords: "https://www.e-chords.com/",
+    github: "https://github.com/login",
 }
