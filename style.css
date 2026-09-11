@@ -12,8 +12,10 @@
     gap: 150px;
 }
 
-.google-it {
-    font-size: 22px;
+.google-it::placeholder {
+    font-family: "Special Elite", monospace;
+    color: #0f0;
+    opacity: 1;
 }
 
 .search input {
@@ -23,7 +25,7 @@
     padding: 0 15px;
     background-color: black;
     color: #32CD6A;
-    border: 1px solid #0f0;
+    border: 2px solid #0f0;
 }
 
 .search button{
@@ -32,7 +34,7 @@
     font-size: 18px;
     background-color: black;
     color: #32CD6A;
-    border: 1px solid #0f0;
+    border: 2px solid #0f0;
 }
 
 
