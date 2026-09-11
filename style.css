@@ -8,6 +8,26 @@
     gap: 150px;
 }
 
+.search input {
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding: 0 15px;
+    background-color: black;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+.search button{
+    height: 50px;
+    padding: 0 25px;
+    font-size: 18px;
+    background-color: black;
+    color: #0f0;
+    border: 1px solid #0f0;
+}
+
+
 #matrix {
     position: fixed;
     inset: 0;
@@ -44,8 +64,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    /* border: 6px solid white; */
-    color: #fff;
+    /* border: 6px solid #0f0; */
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -59,8 +79,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -71,8 +91,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     text-align: center;
     background-color: black;
@@ -83,8 +103,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     text-align: center;
     background-color: black;
@@ -96,8 +116,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -108,8 +128,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -121,8 +141,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -149,8 +169,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -162,8 +182,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -178,8 +198,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -193,8 +213,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -207,8 +227,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -222,8 +242,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -235,8 +255,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -249,8 +269,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -264,8 +284,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid #fff;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -277,8 +297,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -291,8 +311,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -305,8 +325,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -319,8 +339,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -335,8 +355,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    /* border: 6px solid white; */
-    color: #fff;
+    /* border: 6px solid #0f0; */
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -350,8 +370,8 @@ body {
     font-size: 33px;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
@@ -364,8 +384,8 @@ body {
     flex: 1;
     padding: 20px;
     margin: 20px;
-    border: 6px solid white;
-    color: #fff;
+    border: 6px solid #0f0;
+    color: #0f0;
     text-decoration: none;
     align-items: center;
     justify-content: center;
