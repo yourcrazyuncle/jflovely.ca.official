@@ -25,5 +25,7 @@ const links = {
         qbit: "https://www.qbittorrent.org/download",
         pirate_meme: "https://doctorspaghetti.org/pastafarians-pirates-and-climate-change/",
         solar: "https://solarmoviesz.co/",
+        brave: "https://brave.com/download/",
+        
 
 }
