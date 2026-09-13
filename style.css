@@ -42,6 +42,33 @@
     border: 2px solid #0f0;
 }
 
+.suckers-box {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #f00;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.brave {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #f00;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
 
 #matrix {
     position: fixed;
@@ -233,6 +260,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .printer {
@@ -500,6 +528,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .librivox {
@@ -513,6 +542,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .zlibrary {
@@ -526,6 +556,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .be-a-pirate {
@@ -570,6 +601,20 @@ body {
     background-color: black;
 }
 
+.solar {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
 .piratebay {
     display: flex;
     flex: 1;
@@ -581,6 +626,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .archive {
@@ -594,6 +640,7 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
 
 .qbit {
@@ -607,4 +654,5 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-color: black;
 }
