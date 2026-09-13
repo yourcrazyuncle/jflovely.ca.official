@@ -365,6 +365,22 @@ body {
     background-color: black;
 }
 
+
+
+.sushi {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
 .github {
     display: flex;
     flex: 1;
@@ -424,7 +440,26 @@ body {
     background-color: black;
 }
 
+.github-codes code {
+    font-family: "Special Elite", monospace;
+}
+
 .github-codes {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 33px;
+    background-color: black;
+}
+
+.yt-dlp-codes {
     display: flex;
     flex: 1;
     padding: 20px;
@@ -480,7 +515,7 @@ body {
     text-align: center;
 }
 
-.be-a-pirate {
+.zlibrary {
     display: flex;
     flex: 1;
     padding: 20px;
@@ -491,6 +526,48 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+.be-a-pirate {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.starter-pack {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+}
+
+.pirate-manifesto {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #39ff14;
+    color: #32CD6A;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
 }
 
 .piratebay {
@@ -519,7 +596,7 @@ body {
     text-align: center;
 }
 
-.zlibrary {
+.qbit {
     display: flex;
     flex: 1;
     padding: 20px;
